@@ -1,0 +1,29 @@
+div{
+    width:1200px;
+    margin:20px auto;
+    padding:20px;
+}
+
+.one{
+    border:0;
+    padding:10px 12px;
+    font-size:13px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 1px 4px #999;
+    background:#6200ee;
+    color:#fff;
+   
+}
+
+.one:active{
+    transition: background .4s,transform .1s;
+    background:#7447b3;
+    transform:translate(1px,1px);
+    box-shadow: 0px 3px 6px #999;
+}
+
