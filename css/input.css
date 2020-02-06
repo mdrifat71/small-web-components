@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    max-width:700px;
+    margin:20px auto;
+    background:#f1f1f1;
+    padding-bottom:20px;
+    
+}
+
+
+/*=================================
+=========INPUT FIELD ONE===========
+===================================*/
+
+.heading{
+    margin-bottom:20px;
+    padding:20px;
+    background:teal;
+    color:#fff;
+    text-align: center;
+}
+
+.heading h2{
+    letter-spacing:1px;
+}
+
+.input-row{
+    margin:10px 15px;
+}
+
+.input-row label{
+    display: block;
+    margin-bottom:4px;
+}
+
+.input-row input{
+    width:80%;
+    height:32px;
+    padding:4px 7px;
+    font-size:16px;
+    font-family: inherit;
+    transition: width .5s;
+  
+}
+
+.input-row input:focus{
+    border:1.5px solid teal;
+    outline:none;
+    width:100%;
+    
+}
+
+.input-row input.input-login{
+    height: auto;
+    width:auto;
+    padding:4px 25px;
+    margin-top:4px;
+    background:teal;
+    color:#fff;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    cursor:pointer;
+    
+}
+
+.input-row .signup-btn{
+    padding:4px 25px;
+    border:none;
+    background:teal;
+    color:#fff;
+    font-size:16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+
+/*=================================
+=========INPUT FIELD TWO===========
+===================================*/
+
+.input-header-2{
+    text-align:center;
+    padding:20px;
+    background:dodgerblue;
+    color:#fff;
+    letter-spacing:1px;
+    margin-bottom:30px;
+}
+.input-header-2 h2{
+    font-family: inherit;
+}
+
+.input-container-2{
+    padding:0 20px;
+    padding-bottom:20px;
+}
+.input-container-2 .input-field-container-2{
+    margin-bottom:15px;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+}
+
+.input-container-2 .input-field-container-2 input{
+    height:auto;
+    width:80%;
+    font-family: inherit;
+    font-size: inherit;
+    padding:8px 10px;
+}
+.input-container-2 .input-field-container-2 input:focus,textarea:focus{
+    border:1.5px solid dodgerblue;
+}
+
+.input-container-2 .input-field-container-2 textarea{
+    width:80%;
+    padding:5px 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+
+.input-container-2 .input-field-container-2 i{
+    font-size:26px;
+    width:24px;
+    margin-right:14px;
+    color:dodgerblue;
+}
+
+.input-container-2 .input-field-container-2 button{
+    padding:8px 25px;
+    color:#fff;
+    background:dodgerblue;
+    border:none;
+    margin-left:38px;
+    text-transform: uppercase;
+    font-family: inherit;
+    cursor:pointer;
+}

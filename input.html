@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/input.css">
+</head>
+<body>
+
+<!--=================================
+=========INPUT FIELD ONE===========
+===================================-->
+
+    <div class="container">
+        <div class="heading">
+            <h2>Input Field</h2>
+        </div>
+        <form action="input.html">
+            <div class="input-box">
+                <div class="input-row">
+                    <label for="Name">Username</label>
+                    <input type="text" class="Name">
+                </div>
+                <div class="input-row">
+                    <label for="Password">Password</label>
+                    <input type="password" class="Password">
+                </div>
+                <div class="input-row">
+                    <input type="submit" value="login" class="input-login">
+                    <button class="signup-btn">Signup</button>
+                </div>
+               
+            </div>
+        </form>
+    </div>
+
+<!--=================================
+=========INPUT FIELD TWO===========
+===================================-->
+    <div class="container">
+        <div class="input-header-2">
+            <h3>INPUT FIELD</h3>
+        </div>
+        <form action="input.html">
+            <div class="input-container-2">
+                <div class="input-field-container-2">
+                    <i class="fa fa-user"></i>
+                    <input type="text" class="name-2" placeholder="Name">
+                </div>
+                <div class="input-field-container-2">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" class="email-2" placeholder="Email">
+                </div>
+                <div class="input-field-container-2">
+                    <i class="fa fa-phone"></i>
+                    <input type="text" class="phone-2" placeholder="Phone">
+                </div>
+                <div class="input-field-container-2">
+                    <i class="fa fa-pencil"></i>
+                    <textarea name="" id="" cols="30" rows="10" class="message-2" placeholder="Write your message....."></textarea>
+                </div>
+                <div class="input-field-container-2">
+                    <button name="send-msg">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+   
+        <script type="text/javascript">
+	if("WebSocket" in window){
+        console.log(window.WebSocket);
+    }else{
+        console.log("not ok");
+    }
+    </script>
+</body>
+</html>
