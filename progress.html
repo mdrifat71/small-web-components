@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/progress.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <div class="progress"></div>
+            <span class="top"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident enim, adipisci sit ad, esse sint dolore at, voluptas aliquid sequi necessitatibus! Temporibus iure odio tempora eaque iste asperiores totam dolorem.</p>
+        </div>
+        <div class="box">
+            <div class="progress"></div>
+            <span class="top"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident enim, adipisci sit ad, esse sint dolore at, voluptas aliquid sequi necessitatibus! Temporibus iure odio tempora eaque iste asperiores totam dolorem.</p>
+        </div>
+        <div class="box">
+            <div class="progress"></div>
+            <span class="top"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident enim, adipisci sit ad, esse sint dolore at, voluptas aliquid sequi necessitatibus! Temporibus iure odio tempora eaque iste asperiores totam dolorem.</p>
+        </div>
+    </div>
+    <div id="output"></div>
+    <script>
+        const prog=document.querySelectorAll(".progress");
+        console.log(prog);
+        
+       prog.forEach((value,i)=>{
+           setTimeout(()=>{
+                value.classList.add('animate');
+                console.log(1)
+           }
+           ,1000 * i)
+       })
+
+        const output = document.querySelector("#output");
+const display = s => output.innerText = s;
+const names = [
+  "Alberta",
+  "Barry",
+  "Charley",
+  "Christopher",
+  "Dianne",
+  "Ellen",
+  "Ethel",
+  "James",
+  "Jodee",
+  "Joseph",
+  "Lilia",
+  "Mark",
+  "Mary",
+  "Merri",
+  "Michael",
+  "Mildred",
+  "Randall",
+  "Roy",
+  "Thomas",
+  "Venus"
+];
+let name=["R","I","F","A","T"];
+function callName(){
+    name.forEach((value,i)=>{
+    
+        setTimeout(()=>output.innerHTML+=value,i*300)
+
+    
+})
+}
+
+callName();
+
+        
+      
+
+    </script>
+</body>
+</html>
