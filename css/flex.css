@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+}
+
+.container{
+    max-width:1180px;
+    margin:0 auto;
+}
+
+
+/**
+* @header section
+*
+**/
+
+#header{
+    width:100%;
+    color:#fff;
+}
+.header-element{
+    background:#333;
+    padding:10px;
+}
+.header-element h2{
+    text-align:center;
+}
+
+
+/**
+* @hero section
+*
+**/
+
+.section-content{
+    width:100%;
+    position: relative;
+}
+
+
+.section-content img{
+    display: inline-block;
+    width:100%;
+   
+    
+}
+/**
+* @main section
+*
+**/
+
+#main{
+    width:100%;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    
+    
+}
+.main-element .left-aside{
+    width:25%;
+    background:bisque;
+    height: 100vh;
+}
+
+.main-element .main{
+    width:50%;
+    background:azure;
+    height: 100vh;;
+}
+
+.main-element .right-aside{
+    width:25%;
+    background:beige;
+    height: 100vh;
+}
+
+
+
+/**
+* @footer section
+*
+**/
+
+#footer{
+    width:100%;
+}
+
+.footer-element{
+    width:100%;
+    background:#333;
+    text-align: center;
+    color:#fff;
+    padding:10px;
+}
+
+
+
+/**
+* @media queries
+*
+**/
+
+@media  only screen and (max-width:780px){
+   
+/**
+* @main
+*
+**/
+
+.main-element .left-aside{
+    width:20%;
+}
+.main-element .main{
+    width:80%;
+}
+.main-element .right-aside{
+    width:100%;
+}
+
+
+
+}
